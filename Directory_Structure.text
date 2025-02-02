@@ -1,0 +1,18 @@
+
+Fine_Tunning_YOLO/
+├── raw_data/                # Raw images collected from manufacturing industry
+├── dataset/                 # Processed dataset for training and validation
+│   ├── train/               # Training images and labels
+│   ├── valid/               # Validation images and labels
+├── configs/                 # Configuration files
+│   └── data.yaml            # Dataset configuration for YOLO
+├── models/                  # Saved models after training
+├── scripts/                 # Python scripts for data processing and training
+│   ├── preprocess.py        # Script for organizing and splitting raw data
+│   ├── train.py             # Script for training YOLO model
+│   ├── validate.py          # Script for validating the model
+│   └── deploy.py            # Script for saving and storing the model locally
+├── logs/                    # Logs generated during training
+├── README.md                # Project documentation
+└── requirements.txt         # Required Python packages
+
