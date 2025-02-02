@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+ultralytic
+ultralytics
+pyyaml
+opencv-python
